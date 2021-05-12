@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <PreferenceCategory
+        android:title="notifications Settings">
+
+        <CheckBoxPreference
+            android:title="Notifications"
+            android:key="NIGHT"
+            android:defaultValue="false"
+            android:summaryOn="Notifications Is Activated"
+            android:summaryOff="Notifications Is Deactivated"/>
+
+
+        <CheckBoxPreference
+            android:title="Sequrity"
+            android:key="finger"
+            android:defaultValue="false"
+            android:summaryOn="Notifications Is Activated"
+            android:summaryOff="Notifications Is Deactivated"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
